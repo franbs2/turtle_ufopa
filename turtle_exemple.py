@@ -21,6 +21,7 @@ turtle.end_fill() #Finaliza o preenchimento
 turtle.penup() 
 turtle.goto(0, 100)
 turtle.pendown()
+
 for _ in range(6): #Repete os comandos 6 vezes
     turtle.forward(70) 
     turtle.right(60) #Gira a caneta em 60 graus para a direita
@@ -42,7 +43,6 @@ turtle.left(90)
 
 # Chamada inicial da função recursiva para desenhar a espiral
 desenhar_espiral(turtle, 100)
-
 
 turtle.hideturtle() #esconde a caneta
 tela.mainloop() #permite que o usuário decida qnd fechar o quadro
