@@ -42,7 +42,7 @@ turtle.pendown()
 turtle.left(90)
 
 # Chamada inicial da função recursiva para desenhar a espiral
-desenhar_espiral(turtle, 100)
+desenhar_espiral(turtle, 350)
 
 turtle.hideturtle() #esconde a caneta
 tela.mainloop() #permite que o usuário decida qnd fechar o quadro
